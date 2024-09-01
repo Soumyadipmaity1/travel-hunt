@@ -1,7 +1,12 @@
 import React from 'react'
 
+import GridLayout from '../components/HomePage/GridStyle'
+
 export default function Home() {
   return (
-    <div>Home</div>
+    <div className='bg-black h-screen pt-16'>
+    
+    <GridLayout/>
+    </div>
   )
 }
