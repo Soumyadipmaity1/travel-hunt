@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className='bg-black h-screen pt-16'>
     
-    <GridLayout/>
+    {/* <GridLayout/> */}
     </div>
   )
 }
