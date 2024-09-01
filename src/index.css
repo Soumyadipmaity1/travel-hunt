@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ 
+.bg-grid {
+    background-image: url("/public/grid.png");
+    background-size: cover;
+    }
+
