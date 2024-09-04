@@ -8,3 +8,29 @@
     background-size: cover;
     }
 
+    .scroll-animation {
+        animation: scrollText 2s infinite;
+      }
+      
+      @keyframes scrollText {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+      
+      .arrow-animation {
+        animation: arrowBounce 2s infinite;
+      }
+      
+      @keyframes arrowBounce {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(10px);
+        }
+      }
+      
