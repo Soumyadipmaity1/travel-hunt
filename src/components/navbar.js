@@ -11,7 +11,7 @@ const Navbar = () => {
   const isActive = (path) => location.pathname === path ? 'bg-[#99BC85] text-black font-medium' : '';
 
   return (
-    <nav className="fixed w-full z-50 lg:backdrop-blur-lg text-white p-4 ">
+    <nav className="fixed w-full z-50  text-white p-4 ">
       <div className="mx-auto flex items-center justify-between lg:justify-center space-x-4">
 
         <div className="text-lg font-bold text-white">
@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center bg-white/10 rounded-full p-1 px-[12px] backdrop-blur-lg space-x-4">
+        <div className="hidden md:flex items-center bg-white/10 rounded-full p-1 px-[12px] backdrop-blur-md space-x-4">
           <div className="flex items-center py-2">
             <NavLink
               exact
